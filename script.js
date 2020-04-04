@@ -53,4 +53,12 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>`;
       });
   });
+
+  bookContainer.addEventListener("click", e => {
+    if (e.target.dataset.action === "edit") {
+      console.log("you pressed edit");
+    } else if (e.target.dataset.action === "delete") {
+      console.log("you pressed delete");
+    }
+  }); // end of eventListener for editing and deleting a book
 });
