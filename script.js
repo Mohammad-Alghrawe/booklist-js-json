@@ -16,4 +16,7 @@ fetch(`${bookURL}`)
         <button data-id="${book.id}" id="delete-${book.id}" data-action="delete">Delete</button>
       </div>`
     })) // end of book fetch
+
+    const bookForm = document.querySelector("#book-form");
+
 });
