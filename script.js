@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
   bookForm.addEventListener("submit", e => {
     e.preventDefault();
     console.log(e.target);
-    
+    const titleInput = bookForm.querySelector("#title").value;
+    const authorInput = bookForm.querySelector("#author").value;
+    const coverImageInput = bookForm.querySelector("#coverImage").value;
+    const descInput = bookForm.querySelector("#description").value;
   });
 });
