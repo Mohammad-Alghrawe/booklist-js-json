@@ -1,9 +1,25 @@
 {
-    "books": [{
-        "title": "The Name of the Wind",
-        "author": "Patrick Rothfuss",
-        "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91b8oNwaV1L.jpg",
-        "description": "also called The Kingkiller Chronicle: Day One, is a fantasy novel written by American author Patrick Rothfuss. It is the first book in a series called The Kingkiller Chronicle and followed by The Wise Man's Fear.",
-        "id": 1
-    }]
+  "books": [
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91b8oNwaV1L.jpg",
+      "description": "also called The Kingkiller Chronicle: Day One, is a fantasy novel written by American author Patrick Rothfuss. It is the first book in a series called The Kingkiller Chronicle and followed by The Wise Man's Fear.",
+      "id": 1
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/4145Q3WAneL._SX331_BO1,204,203,200_.jpg",
+      "description": "The Art of War is an ancient Chinese military treatise dating from the Late Spring and Autumn Period. The work, which is attributed to the ancient Chinese military strategist Sun Tzu, is composed of 13 chapters. Each one is devoted to an aspect of warfare and how it applies to military strategy and tactics",
+      "id": 2
+    },
+    {
+      "title": "The Great Mortality",
+      "author": "John Kelly ",
+      "coverImage": "https://m.media-amazon.com/images/I/51ExnsBJ8sL.jpg",
+      "description": "La moria grandissima began its terrible journey across the European and Asian continents in 1347, leaving unimaginable devastation in its wake. Five years later, twenty-five million people were dead",
+      "id": 3
+    }
+  ]
 }
