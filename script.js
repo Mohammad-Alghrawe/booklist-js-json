@@ -27,5 +27,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const authorInput = bookForm.querySelector("#author").value;
     const coverImageInput = bookForm.querySelector("#coverImage").value;
     const descInput = bookForm.querySelector("#description").value;
+
+    fetch(`${bookURL}`, {
+      method: "POST",
+      body: JSON.stringify({
+        title: titleInput,
+        author: authorInput,
+        coverImage: coverImageInput,
+        description: descInput
+      }),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
   });
 });
